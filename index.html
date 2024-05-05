@@ -15,16 +15,16 @@
         <div class="right-nav">
             <ul class="nav-bar">
                 <li>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Experience</a>
+                    <a class="nav-link" href="#Experience">Experience</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contacts">Contact</a>
                 </li>
             </ul>
         </div>
@@ -41,14 +41,14 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#" onclick="toggleMenu()">Contacts</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
             </div>
         </div>
     </nav>
     <div class="main">
-        <div class="profile">
+        <div class="profile" id="profile">
             <div class="profile-left">
                 <img class="img" src="Assets/WhatsApp Image 2024-04-24 at 15.04.25_e95cdfa3.jpg" alt="My Profile Picture"/>
             </div>
@@ -76,7 +76,7 @@
                 </div> 
             </div>
         </div>
-        <div class="about">
+        <div class="about" id="about">
             <div class="about-sec1">
                 <div class="section-1">
                     <p>Get To Know More </p>
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="Experience">
+        <div class="Experience" id="Experience">
             <div class="exp1">
                 <div class="intro">
                     <p>Explore</p>
@@ -144,22 +144,36 @@
                             <article class="article">
                                 <img class="check" src="Assets/checkmark.png"/>
                                 <div class="sk">
-                                    <h3>HTML</h3>
+                                    <h3>CSS</h3>
                                     <p>Experienced</p>
                                 </div>
                             </article>
                             <article class="article">
                                 <img class="check" src="Assets/checkmark.png"/>
                                 <div class="sk">
-                                    <h3>HTML</h3>
+                                    <h3>JavaScript</h3>
                                     <p>Experienced</p>
                                 </div>
                             </article>
                             <article class="article">
                                 <img class="check" src="Assets/checkmark.png"/>
                                 <div class="sk">
-                                    <h3>HTML</h3>
+                                    <h3>Python</h3>
                                     <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article class="article">
+                                <img class="check" src="Assets/checkmark.png"/>
+                                <div class="sk">
+                                    <h3>C</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article class="article">
+                                <img class="check" src="Assets/checkmark.png"/>
+                                <div class="sk">
+                                    <h3>java</h3>
+                                    <p>Intermediate</p>
                                 </div>
                             </article>
                         </div>
@@ -172,29 +186,29 @@
                             <article class="article">
                                 <img class="check" src="Assets/checkmark.png"/>
                                 <div class="sk">
-                                    <h3>HTML</h3>
-                                    <p>Experienced</p>
+                                    <h3>PostgreSQL</h3>
+                                    <p>Basic</p>
                                 </div>
                             </article>
                             <article class="article">
                                 <img class="check" src="Assets/checkmark.png"/>
                                 <div class="sk">
-                                    <h3>HTML</h3>
-                                    <p>Experienced</p>
+                                    <h3>Node JS</h3>
+                                    <p>Intermediate</p>
                                 </div>
                             </article>
                             <article class="article">
                                 <img class="check" src="Assets/checkmark.png"/>
                                 <div class="sk">
-                                    <h3>HTML</h3>
-                                    <p>Experienced</p>
+                                    <h3>Express JS</h3>
+                                    <p>Intermediate</p>
                                 </div>
                             </article>
                             <article class="article">
                                 <img class="check" src="Assets/checkmark.png"/>
                                 <div class="sk">
-                                    <h3>HTML</h3>
-                                    <p>Experienced</p>
+                                    <h3>Git</h3>
+                                    <p>Intermediate</p>
                                 </div>
                             </article>
                         </div>
@@ -202,7 +216,84 @@
                 </div>
             </div>
         </div>
+        <div class="Projects" id="projects">
+            <div class="P-1">
+                <p>Browse My Recent</p>
+                <h1>Projects</h1>
+            </div>
+            <div class="P-2">
+                <div class="pros">
+                    <div class="project">
+                        <div class="project-image">
+                            <img class="project-img" src="/Assets/project-1.png" alt="projects" >
+                        </div>
+                        <h2>Project 1</h2>      
+                        <div class="button-container">
+                            <button class="button" onclick="location.href='/https://github.com/navjot855/First-One'">Github</button>
+                            <button class="button" onclick="location.href">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-image">
+                            <img class="project-img" src="/Assets/project-2.png" alt="projects" >
+                        </div>
+                        <h2>Project 2</h2>      
+                        <div class="button-container">
+                            <button class="button" onclick="location.href='/https://github.com/navjot855/First-One'">Github</button>
+                            <button class="button" onclick="location.href">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-image">
+                            <img class="project-img" src="/Assets/project-3.png" alt="projects" >
+                        </div>
+                        <h2>Project 3</h2>      
+                        <div class="button-container">
+                            <button class="button" onclick="location.href='/https://github.com/navjot855/First-One'">Github</button>
+                            <button class="button" onclick="location.href">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  id="contacts">
+            <div class="headline-contact">
+                <p>Get In Touch</p>
+                <h1>Contact me</h1>
+            </div>
+            <div class="contact-links">
+                <div class="linkcontainer">
+                    <div class="cont">
+                        <img src="/Assets/email.png" class="c-link-1" />
+                        <p><a href="mailto:mrsingh656565@gmail.com">Mrsingh656565@gmail.com</a></p>
+                    </div>
+                    <div class="cont">
+                        <img src="/Assets/linkedin.png" class="c-link-2" onclick="location.href='https://www.linkedin.com/in/navjot-singh-b43317307/'"/>
+                        <p><a href="https://www.linkedin.com/in/navjot-singh-b43317307/">LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="footer">
+            <ul class="nav-bar">
+                <li>
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Experience">Experience</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#contacts">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <p>Copyright &#169; 2024 Navjot singh, All Rights Reserved.</p>
+    </footer>
     <script src="one.js">
     </script>
 </body>
